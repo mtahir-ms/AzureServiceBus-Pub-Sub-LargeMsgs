@@ -34,7 +34,7 @@ using Azure.Messaging.ServiceBus;
                 Console.WriteLine($"{DateTime.Now} :: Exception: {exception.Message}");
             }
 
-    //Total of 4000 msgs will be posted to ServiceBus Queue. Each MSG size is 10kb
+    //Total of 4000 msgs will be posted to ServiceBus Queue. Each MSG size is 10kb/
     int outloopcounter = 200;
     for (int o = 1; o <= outloopcounter; o++)
     {
