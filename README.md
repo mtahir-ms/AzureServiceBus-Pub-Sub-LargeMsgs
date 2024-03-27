@@ -1,3 +1,7 @@
+# Process large volumes of messages with Azure Service Bus & Azure Function
+
+This solution is focused on producing 5k or more messages per few seconds and process them with Azure function consumer within few seconds as well. I am using Azure SB premium and function premium. Azure Function autoscaling is set to scale out from 1 to 5. It was running with one instance only. It did spike in some executions to spin up a second instance but it was only for few minutes. It did auto scale back to 1 instance. Overall excellent results. This will be further tested to process 50k messages within 60 seconds range. 
+
 # DataProducerApp1
 
 This solution file has two projects
