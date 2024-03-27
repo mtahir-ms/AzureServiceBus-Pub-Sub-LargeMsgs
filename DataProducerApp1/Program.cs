@@ -5,7 +5,7 @@ using Azure.Messaging.ServiceBus;
 
 
     // connection string to your Service Bus namespace
-     string connectionString = "Endpoint=sb://testsbmoonis123.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=ES/i2ZX9EFBHfbj1K8rCUzgPaGWBL6EoZ+ASbNZxL0I=";
+     string connectionString = "Endpoint=sb://<SB namespace>.servicebus.windows.net/;SharedAccessKeyName=<AccessKeyName>;SharedAccessKey=<AccessKeyValue>";
 
     // name of your Service Bus queue
      string queueName = "queue1";
